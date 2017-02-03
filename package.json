@@ -1,0 +1,22 @@
+{
+  "name": "extjs-typeahead",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start" : "http-server 9876"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snagar78/extjs-typeahead.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snagar78/extjs-typeahead/issues"
+  },
+  "homepage": "https://github.com/snagar78/extjs-typeahead#readme",
+  "dependencies": {
+    "http-server": "^0.9.0"
+  }
+}
