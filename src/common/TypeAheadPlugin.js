@@ -156,9 +156,7 @@ Ext.define('common.TypeAheadPlugin', {
         var me = this;
 
         var bounds = me.getCurrentCursorPosition();
-
         me.dataView.showAt([bounds.left, bounds.top]);
-
     },
 
     getCurrentCursorPosition: function () {

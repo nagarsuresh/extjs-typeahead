@@ -61,6 +61,12 @@ Ext.define('TypeAhead.view.CenterContainer', {
                     labelAlign: 'top',
                     width: 600,
                     height: 300,
+                    itemId: 'tokenTextArea',
+                    value: `
+                    Sunnyvale
+                    Arvin
+                    Banning
+                    `,
                     xtype: 'textarea',
                     plugins: [
                         {

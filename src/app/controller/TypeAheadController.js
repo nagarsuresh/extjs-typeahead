@@ -13,6 +13,8 @@ Ext.define('TypeAhead.controller.TypeAheadController', {
                 click: me.onGitHubButtonClick
             }
         });
+
+        me.callParent(arguments);
     },
 
 
@@ -22,4 +24,5 @@ Ext.define('TypeAhead.controller.TypeAheadController', {
     onGitHubButtonClick: function () {
         document.location.href = "https://github.com/snagar78/extjs-typeahead";
     }
+    
 });
