@@ -1,3 +1,6 @@
+.auto_complete_list{
+    box-shadow: 5px 5px 10px #aaa;
+}
 .auto_complete_list_item{
     position: relative;
     display: -webkit-box;
@@ -23,11 +26,7 @@
 .auto_complete_list_item:hover{
     z-index: 2;
     color: #fff;
+    font-weight: bold;
     background-color: #0275d8;
     border-color: #0275d8;    
 }
-
-textarea{
-    text-transform: uppercase;
-}
-

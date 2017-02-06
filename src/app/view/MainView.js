@@ -9,12 +9,12 @@ Ext.define('TypeAhead.view.MainView', {
     items: [
         {
             region: 'east',
-            title: 'Tokens List',
+            title: 'City List',
             xtype: 'tokensList'
         },
         {
             region: 'center',
-            title: 'Type Ahead',
+            title: 'ExtJS plugin for TextArea for auto complete',
             xtype: 'centerContainer'
         }
     ]

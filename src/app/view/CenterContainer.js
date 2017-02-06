@@ -57,7 +57,7 @@ Ext.define('TypeAhead.view.CenterContainer', {
                     `
                 },
                 {
-                    fieldLabel: 'Start Typing in text below',
+                    fieldLabel: 'Type a city name from the list',
                     labelAlign: 'top',
                     width: 600,
                     height: 300,

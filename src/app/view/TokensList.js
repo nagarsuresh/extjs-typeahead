@@ -5,8 +5,8 @@ Ext.define('TypeAhead.view.TokensList', {
     width: 300,
     padding: '10',
     alias: 'widget.tokensList',
+    hideHeaders : true,
     columns: [{
-        text: 'Token Name',
         dataIndex: 'token',
         flex: 1
     }],
